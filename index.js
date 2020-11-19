@@ -7,23 +7,15 @@ exports.handler = async event => {
 
     let customObject = await ct.customObjects.get(message.resource.id)
 
-    console.log(``)
-    console.log(``)
-    console.log(``)
-    console.log(``)
+    console.log(`\n\n\n`)
     console.log(`Company Updated`)
-    console.log(`---------------`)
-    console.log(``)
+    console.log(`---------------\n`)
     console.log(`Company: ${customObject.name}`)
     console.log(`Status:  ${customObject.companyState}`)
-    console.log(``)
-    console.log(``)
-    console.log(``)
-    console.log(``)
+    console.log(`\n\n\n`)
 
-    const response = {
+    return {
         statusCode: 200,
         body: JSON.stringify(event),
     };
-    return response;
 }
