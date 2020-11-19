@@ -1,0 +1,12 @@
+{
+  "type": "file",
+  "credentials": [
+    {
+      "oauth_url": "https://auth.us-central1.gcp.commercetools.com",
+      "client_id": "HZgVKgP-Mp7MSgGwVQnr0Les",
+      "client_secret": "hTAhOMRRS4cHfslD11uti6pylTqYuNNR",
+      "project": "presales-b2b",
+      "api_url": "https://api.us-central1.gcp.commercetools.com"
+    }
+  ]
+}
